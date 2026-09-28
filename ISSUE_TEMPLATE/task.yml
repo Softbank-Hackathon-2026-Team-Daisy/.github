@@ -1,0 +1,37 @@
+name: 작업
+description: 구현할 기능이나 PoC 작업
+title: "[작업] "
+labels: ["task"]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: 파트
+      options: [web, ios, server, infra, ci, docs]
+    validations:
+      required: true
+  - type: input
+    id: poc
+    attributes:
+      label: 관련 PoC · ADR
+      placeholder: "예: N-01, ADR-004"
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇을 하나요
+      placeholder: 한두 줄로
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 기준
+      description: PoC라면 노션 PoC 계획의 성공 기준을 그대로 적어요
+      placeholder: "예: merge 후 5분 안에 커밋 해시 태그 이미지가 레지스트리에 올라감"
+    validations:
+      required: true
+  - type: textarea
+    id: fallback
+    attributes:
+      label: 실패 시 대안
+      placeholder: "예: workflow_dispatch 수동 실행"

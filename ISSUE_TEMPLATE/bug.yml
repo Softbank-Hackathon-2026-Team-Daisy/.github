@@ -1,0 +1,36 @@
+name: 버그
+description: 예상과 다르게 동작하는 것
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: 파트
+      options: [web, ios, server, infra, ci, docs]
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: 대상 환경
+      multiple: true
+      options: [해당 없음, 온프레미스, AWS, GCP]
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 증상
+      description: 무엇이 어떻게 잘못됐나요
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 방법
+      placeholder: "1. ...\n2. ..."
+  - type: textarea
+    id: log
+    attributes:
+      label: 로그 · 에러 메시지
+      description: 비밀값(키, 비밀번호, 토큰)은 지우고 붙여주세요
+      render: shell

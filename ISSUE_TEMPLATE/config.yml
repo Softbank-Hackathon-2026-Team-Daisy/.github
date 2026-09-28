@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 설계 문서 · 회의록 · ADR (Notion)
+    url: https://app.notion.com/p/3e90fa3de3eb813d834ce1845aa4c134
+    about: 설계 논의와 결정 기록은 Notion에 남겨요.
