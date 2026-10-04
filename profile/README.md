@@ -229,6 +229,23 @@ SSE로 단계 · 상태 · 로그가 실시간으로 흘러요. 끊기면 마지
 </tr>
 </table>
 
+## 📱 iPhone 앱
+
+> 웹과 **같은 API · 같은 흐름 · 같은 문구**로 배포 전체를 해요. 모양은 애플 방식(Liquid Glass)이고, 승인이 필요하거나 배포가 끝나면 푸시 알림이 와요. [TestFlight로 설치](https://testflight.apple.com/join/wF5sjQPG)
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/overview.webp" width="240" alt="<b>개요</b> — 4개 환경 현재 버전 · 4/4 일치, 지금 할 일" /><br/><sub><b>개요</b> — 4개 환경 현재 버전 · 4/4 일치, 지금 할 일</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/targets.webp" width="240" alt="<b>환경 선택</b> — 웹과 같은 흐름으로 여러 환경을 한 번에" /><br/><sub><b>환경 선택</b> — 웹과 같은 흐름으로 여러 환경을 한 번에</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/generate.webp" width="240" alt="<b>생성 · 검증</b> — 환경별 AI 생성 · 시도 n/3" /><br/><sub><b>생성 · 검증</b> — 환경별 AI 생성 · 시도 n/3</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/approve.webp" width="240" alt="<b>승인</b> — 환경별 plan을 보고 그 자리에서 승인" /><br/><sub><b>승인</b> — 환경별 plan을 보고 그 자리에서 승인</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/result.webp" width="240" alt="<b>결과 + 푸시 알림</b> — 배포가 끝나면 iPhone으로 알려줘요" /><br/><sub><b>결과 + 푸시 알림</b> — 배포가 끝나면 iPhone으로 알려줘요</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/ai-usage.webp" width="240" alt="<b>AI 사용량</b> — 재사용한 환경 69곳 · AI 호출 0회" /><br/><sub><b>AI 사용량</b> — 재사용한 환경 69곳 · AI 호출 0회</sub></td>
+</tr>
+</table>
+
 ## 🏛️ 아키텍처
 
 <p align="center">
@@ -425,6 +442,23 @@ Unibloomの目標は、**利用者が環境ごとの違いを深く知らなく�
 - ⚡ **リアルタイム進行** — SSEでステップ・状態・ログを配信。切断されても`Last-Event-ID`から再開
 - 🔍 **ポータビリティ検証** — イメージはコミットハッシュのタグで**一度だけ**ビルド(amd64・arm64マルチアーキテクチャ)し、デプロイ後に環境ごとの**digest・コミット・ヘルスチェック**を一覧で比較
 - 📱 **Web+ネイティブアプリ** — Webダッシュボードと**iOS・macOSアプリ**が同じAPIで全フローに対応。承認が必要になるとiPhoneに通知が届きます
+
+## 📱 iPhoneアプリ
+
+> Webと**同じAPI・同じ流れ・同じ文言**でデプロイ全体を行えます。見た目はAppleのデザイン(Liquid Glass)で、承認が必要なときやデプロイ完了時にプッシュ通知が届きます。[TestFlightでインストール](https://testflight.apple.com/join/wF5sjQPG)
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/overview.webp" width="240" alt="<b>概要</b> — 4環境の現在のバージョン・4/4一致" /><br/><sub><b>概要</b> — 4環境の現在のバージョン・4/4一致</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/targets.webp" width="240" alt="<b>環境の選択</b> — Webと同じ流れで複数環境を一度に" /><br/><sub><b>環境の選択</b> — Webと同じ流れで複数環境を一度に</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/generate.webp" width="240" alt="<b>生成・検証</b> — 環境ごとのAI生成・試行 n/3" /><br/><sub><b>生成・検証</b> — 環境ごとのAI生成・試行 n/3</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/approve.webp" width="240" alt="<b>承認</b> — 環境別のplanを見てその場で承認" /><br/><sub><b>承認</b> — 環境別のplanを見てその場で承認</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/result.webp" width="240" alt="<b>結果+プッシュ通知</b> — デプロイ完了をiPhoneに通知" /><br/><sub><b>結果+プッシュ通知</b> — デプロイ完了をiPhoneに通知</sub></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/ai-usage.webp" width="240" alt="<b>AI使用量</b> — 再利用した環境69か所・AI呼び出し0回" /><br/><sub><b>AI使用量</b> — 再利用した環境69か所・AI呼び出し0回</sub></td>
+</tr>
+</table>
 
 ## 🏛️ アーキテクチャ
 
