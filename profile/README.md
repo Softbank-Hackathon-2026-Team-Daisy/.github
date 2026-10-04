@@ -378,17 +378,6 @@ flowchart LR
 | **온프레미스** | Proxmox VM + Docker (Jenkins → SSH) · `onprem.unibloom.cloud`는 ngrok으로 공개 (Route 53 CNAME, 인증서는 ngrok) |
 | **Design** | Figma 와이어프레임 v1.0 · 디자인 시스템 |
 
-## 👥 Team
-
-| | 이름 | GitHub | 역할 |
-|---|---|---|---|
-| 🧭 | 김도영 | [@kimdoyoung1110](https://github.com/kimdoyoung1110) | 팀장 · Web |
-| 📱 | 박승준 | [@Seungjun1127](https://github.com/Seungjun1127) | Swift 앱 (iOS · macOS) · 샘플 앱 |
-| ☕ | 하은현 | [@gkdmsgus](https://github.com/gkdmsgus) | Server — 인증 · 인가, 프로젝트 · 대상 환경 · 빌드 이력, 조회 API · OpenAPI |
-| ⚙️ | 김승환 | [@7SH7](https://github.com/7SH7) | Server — 배포 실행 규칙(승인 · 취소 · 재시도 · 롤백), Jenkins 연동, 락 · 장애 복구 |
-| 🏠 | 황지환 | [@jihwan77](https://github.com/jihwan77) | Infra · 온프레미스 — Proxmox · Docker 모듈, 네트워크 · 접근 제어, 도메인 · HTTPS |
-| ☁️ | 임채준 | [@dlacowns21](https://github.com/dlacowns21) | Infra · 클라우드 — AWS · GCP · Azure 모듈, Jenkins CI / CD, AI Terraform 생성 |
-
 ## 🤝 협업 방식
 
 - **브랜치 보호** — 모든 레포의 `main`은 직접 push 금지, PR + squash merge만 받아요.
@@ -399,6 +388,19 @@ flowchart LR
 - **작업 기록** — 파트별로 날짜마다 무엇을 하고, 왜 정했고, 어디서 막혔는지 남겨요.
 - **이슈 · PR 템플릿** — 작업 · 버그 · 결정 필요 이슈와 PR 템플릿을 이 레포에서 모든 레포에 공통으로 써요.
 - **소통** — 문서는 Notion, 대화는 Slack, 예선 전까지 매일 21:00 정기 회의(Slack 허들).
+
+## 👥 Team
+
+<table>
+<tr>
+<td align="center" width="16.6%"><a href="https://github.com/kimdoyoung1110"><img src="https://github.com/kimdoyoung1110.png?size=200" width="96" alt="kimdoyoung1110" /></a><br/><b>김도영</b><br/><sub><a href="https://github.com/kimdoyoung1110">@kimdoyoung1110</a></sub><br/><sub>팀장 · Web</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/Seungjun1127"><img src="https://github.com/Seungjun1127.png?size=200" width="96" alt="Seungjun1127" /></a><br/><b>박승준</b><br/><sub><a href="https://github.com/Seungjun1127">@Seungjun1127</a></sub><br/><sub>iOS · macOS 앱</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/gkdmsgus"><img src="https://github.com/gkdmsgus.png?size=200" width="96" alt="gkdmsgus" /></a><br/><b>하은현</b><br/><sub><a href="https://github.com/gkdmsgus">@gkdmsgus</a></sub><br/><sub>Server · 인증 · 조회 API</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/7SH7"><img src="https://github.com/7SH7.png?size=200" width="96" alt="7SH7" /></a><br/><b>김승환</b><br/><sub><a href="https://github.com/7SH7">@7SH7</a></sub><br/><sub>Server · 배포 실행</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/jihwan77"><img src="https://github.com/jihwan77.png?size=200" width="96" alt="jihwan77" /></a><br/><b>황지환</b><br/><sub><a href="https://github.com/jihwan77">@jihwan77</a></sub><br/><sub>Infra · 온프레미스</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/dlacowns21"><img src="https://github.com/dlacowns21.png?size=200" width="96" alt="dlacowns21" /></a><br/><b>임채준</b><br/><sub><a href="https://github.com/dlacowns21">@dlacowns21</a></sub><br/><sub>Infra · 클라우드 · AI 생성</sub></td>
+</tr>
+</table>
 
 ---
 
@@ -543,14 +545,16 @@ Unibloomの目標は、**利用者が環境ごとの違いを深く知らなく�
 
 ## 👥 チーム
 
-| 名前 | 役割 |
-|---|---|
-| キム・ドヨン ([@kimdoyoung1110](https://github.com/kimdoyoung1110)) | チームリーダー・Web |
-| パク・スンジュン ([@Seungjun1127](https://github.com/Seungjun1127)) | Swiftアプリ(iOS・macOS)・サンプルアプリ |
-| ハ・ウニョン ([@gkdmsgus](https://github.com/gkdmsgus)) | サーバー — 認証・認可、プロジェクト・環境・ビルド履歴、参照API・OpenAPI |
-| キム・スンファン ([@7SH7](https://github.com/7SH7)) | サーバー — デプロイ実行ルール(承認・取消・再試行・ロールバック)、Jenkins連携、ロック・障害復旧 |
-| ファン・ジファン ([@jihwan77](https://github.com/jihwan77)) | インフラ・オンプレミス — Proxmox・Dockerモジュール、ネットワーク・アクセス制御、ドメイン・HTTPS |
-| イム・チェジュン ([@dlacowns21](https://github.com/dlacowns21)) | インフラ・クラウド — AWS・GCP・Azureモジュール、Jenkins CI / CD、AIによるTerraform生成 |
+<table>
+<tr>
+<td align="center" width="16.6%"><a href="https://github.com/kimdoyoung1110"><img src="https://github.com/kimdoyoung1110.png?size=200" width="96" alt="kimdoyoung1110" /></a><br/><b>キム・ドヨン</b><br/><sub><a href="https://github.com/kimdoyoung1110">@kimdoyoung1110</a></sub><br/><sub>リーダー・Web</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/Seungjun1127"><img src="https://github.com/Seungjun1127.png?size=200" width="96" alt="Seungjun1127" /></a><br/><b>パク・スンジュン</b><br/><sub><a href="https://github.com/Seungjun1127">@Seungjun1127</a></sub><br/><sub>iOS・macOSアプリ</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/gkdmsgus"><img src="https://github.com/gkdmsgus.png?size=200" width="96" alt="gkdmsgus" /></a><br/><b>ハ・ウニョン</b><br/><sub><a href="https://github.com/gkdmsgus">@gkdmsgus</a></sub><br/><sub>サーバー・認証・参照API</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/7SH7"><img src="https://github.com/7SH7.png?size=200" width="96" alt="7SH7" /></a><br/><b>キム・スンファン</b><br/><sub><a href="https://github.com/7SH7">@7SH7</a></sub><br/><sub>サーバー・デプロイ実行</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/jihwan77"><img src="https://github.com/jihwan77.png?size=200" width="96" alt="jihwan77" /></a><br/><b>ファン・ジファン</b><br/><sub><a href="https://github.com/jihwan77">@jihwan77</a></sub><br/><sub>インフラ・オンプレミス</sub></td>
+<td align="center" width="16.6%"><a href="https://github.com/dlacowns21"><img src="https://github.com/dlacowns21.png?size=200" width="96" alt="dlacowns21" /></a><br/><b>イム・チェジュン</b><br/><sub><a href="https://github.com/dlacowns21">@dlacowns21</a></sub><br/><sub>インフラ・クラウド・AI生成</sub></td>
+</tr>
+</table>
 
 </details>
 
