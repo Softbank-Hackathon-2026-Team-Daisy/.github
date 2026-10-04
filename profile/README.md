@@ -1,13 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/logo.svg" width="96" alt="Unibloom 로고" />
-
-# Unibloom
-
-### 한 번 정의하고, 어디서든 피우다
-**One Action, Infinite Clouds**
-
-AI 기반 온프레미스 · 퍼블릭 클라우드 원터치 배포 시스템
+<img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/banner.webp" width="100%" alt="Unibloom — 한 번 정의하고, 어디서든 피우다 · One Action, Infinite Clouds · AI가 환경별 Terraform을 만들고 검증해 같은 이미지를 AWS · Azure · Google Cloud · 온프레미스에 한 번에 배포해요" />
 
 <br/>
 
@@ -406,6 +399,8 @@ flowchart LR
 
 <details>
 <summary><h2>🇯🇵 日本語</h2></summary>
+
+<p align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/banner.ja.webp" width="100%" alt="Unibloom — 一度定義すれば、どこでも咲く · AIが環境別のTerraformを生成・検証し、同じイメージを4つの環境へ一括デプロイ" /></p>
 
 ## 🌱 Unibloomとは
 
