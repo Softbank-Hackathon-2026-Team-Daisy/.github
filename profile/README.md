@@ -246,6 +246,25 @@ SSE로 단계 · 상태 · 로그가 실시간으로 흘러요. 끊기면 마지
 </tr>
 </table>
 
+## 💻 macOS 앱
+
+> 같은 SwiftUI 코드로 만든 Mac 앱이에요. 넓은 화면에서는 웹처럼 사이드바로 보이고, 전체 배포 흐름을 그대로 할 수 있어요. [Unibloom.dmg 다운로드](https://github.com/Softbank-Hackathon-2026-Team-Daisy/unibloom/releases/download/mac-latest/Unibloom.dmg) (Developer ID 서명 · Apple 공증)
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/overview.webp" alt="<b>개요</b> — 사이드바 · 환경별 현재 버전 · 4/4 일치" /><br/><sub><b>개요</b> — 사이드바 · 환경별 현재 버전 · 4/4 일치</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/targets.webp" alt="<b>환경 선택</b> — 4개 환경을 한 번에" /><br/><sub><b>환경 선택</b> — 4개 환경을 한 번에</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/generate.webp" alt="<b>생성 · 검증</b> — 환경별 진행 · 재사용은 바로 통과" /><br/><sub><b>생성 · 검증</b> — 환경별 진행 · 재사용은 바로 통과</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/approve.webp" alt="<b>승인</b> — 환경별 plan 확인 후 승인하고 배포" /><br/><sub><b>승인</b> — 환경별 plan 확인 후 승인하고 배포</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/progress.webp" alt="<b>배포 중</b> — 환경별 validate · plan · risk_check · apply" /><br/><sub><b>배포 중</b> — 환경별 validate · plan · risk_check · apply</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/result.webp" alt="<b>결과</b> — 환경별 QR · 동일성 검증 digest 4/4 일치" /><br/><sub><b>결과</b> — 환경별 QR · 동일성 검증 digest 4/4 일치</sub></td>
+</tr>
+</table>
+
 ## 🏛️ 아키텍처
 
 <p align="center">
@@ -457,6 +476,25 @@ Unibloomの目標は、**利用者が環境ごとの違いを深く知らなく�
 <td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/approve.webp" width="240" alt="<b>承認</b> — 環境別のplanを見てその場で承認" /><br/><sub><b>承認</b> — 環境別のplanを見てその場で承認</sub></td>
 <td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/result.webp" width="240" alt="<b>結果+プッシュ通知</b> — デプロイ完了をiPhoneに通知" /><br/><sub><b>結果+プッシュ通知</b> — デプロイ完了をiPhoneに通知</sub></td>
 <td width="33%" align="center"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/app/ai-usage.webp" width="240" alt="<b>AI使用量</b> — 再利用した環境69か所・AI呼び出し0回" /><br/><sub><b>AI使用量</b> — 再利用した環境69か所・AI呼び出し0回</sub></td>
+</tr>
+</table>
+
+## 💻 macOSアプリ
+
+> 同じSwiftUIコードで作ったMacアプリです。広い画面ではWebと同じくサイドバー表示になり、デプロイの全フローをそのまま行えます。[Unibloom.dmgをダウンロード](https://github.com/Softbank-Hackathon-2026-Team-Daisy/unibloom/releases/download/mac-latest/Unibloom.dmg)(Developer ID署名・Apple公証済み)
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/overview.webp" alt="<b>概要</b> — サイドバー・環境別の現在のバージョン・4/4一致" /><br/><sub><b>概要</b> — サイドバー・環境別の現在のバージョン・4/4一致</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/targets.webp" alt="<b>環境の選択</b> — 4環境を一度に" /><br/><sub><b>環境の選択</b> — 4環境を一度に</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/generate.webp" alt="<b>生成・検証</b> — 環境別の進行・再利用は即通過" /><br/><sub><b>生成・検証</b> — 環境別の進行・再利用は即通過</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/approve.webp" alt="<b>承認</b> — 環境別のplanを確認して承認・デプロイ" /><br/><sub><b>承認</b> — 環境別のplanを確認して承認・デプロイ</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/progress.webp" alt="<b>デプロイ中</b> — 環境別の validate・plan・risk_check・apply" /><br/><sub><b>デプロイ中</b> — 環境別の validate・plan・risk_check・apply</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Softbank-Hackathon-2026-Team-Daisy/.github/main/profile/assets/mac/result.webp" alt="<b>結果</b> — 環境別QR・同一性検証 digest 4/4一致" /><br/><sub><b>結果</b> — 環境別QR・同一性検証 digest 4/4一致</sub></td>
 </tr>
 </table>
 
